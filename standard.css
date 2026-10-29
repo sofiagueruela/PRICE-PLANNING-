@@ -1,0 +1,18 @@
+/*Importing the downloaded font family*/
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@800&family=Inter:wght@400;500;600;700&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(110deg, #072d5e 0%, #4677be 100%);
+    color: white;
+}
+
+/*desktop*/
+@media only screen and (min-width: 1000px) {
+    body {
+        background-image: url('IMGs/4.png');
+        background-size: cover;
+        background-repeat:no-repeat;
+    }
+}
